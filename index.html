@@ -36,7 +36,7 @@
         <li>Haris</li>
         <li>Adhi</li>
     </ol3>
-    <style>
+       <style>
         ul{
             font-size: larger;
             color: red;
@@ -62,7 +62,104 @@
             color: green;
             font-style: inherit;
         }
-    </style>
+        .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: rgb(245, 231, 231);
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: rgb(224, 216, 216);
+  padding: 10px;
+  flex: 50%;
+}    <style>
+        ul{
+            font-size: larger;
+            color: red;
+            font-style: italic;
+        }
+        h2{
+            font-size: larger;
+            color: blue;
+            font-style: oblique;
+        }
+        ol1{
+            font-size: larger;
+            color: blueviolet;
+            font-style: inherit;
+        }
+        ol2{
+            font-size: larger;
+            color: gold;
+            font-style: inherit;
+        }
+        ol3{
+            font-size: larger;
+            color: green;
+            font-style: inherit;
+        }
+        .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: rgb(245, 231, 231);
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: rgb(224, 216, 216);
+  padding: 10px;
+  flex: 50%;
+}
+</style>
     <a href="www.google.com">Ramkumar</a>
 </div>  
 </head>
